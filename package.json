@@ -1,0 +1,28 @@
+{
+  "name": "codextask2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "split2": "^4.2.0"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.15.0",
+    "codextask2": "file:",
+    "config": "^3.3.12",
+    "git": "^0.1.5",
+    "json5": "^2.2.3"
+  }
+}
