@@ -13,10 +13,7 @@ const client  = new Client({
     }
 })
 
-//find a way to get usernamae and password
 
-//username: elastic
-//password: 204cKWsjXHraZaoDfwaatQ5X
 async function create_db(dbName) {
  await client.indices.create({ index: `${dbName}` }) // to create db, index == db in elastic
 }
